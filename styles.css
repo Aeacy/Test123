@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282828;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.tournament-tree {
+    display: flex;
+    gap: 20px;
+}
+
+.round {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.match {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #444;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.team {
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin: 3px 0;
+    text-align: center;
+}
+
+.team.winner {
+    background: #6b8e23;
+}
+
+.TBD {
+    background: #555;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
